@@ -1,0 +1,22 @@
+{
+  "name": "days-calculator",
+  "version": "1.0.0",
+  "description": "Date Calculator in days",
+  "main": "main.js",
+  "engines": {
+    "node": "7.10.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha ./test/*.test.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Bashanta Dahal",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^4.0.1"
+  }
+}
